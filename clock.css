@@ -1,0 +1,62 @@
+body
+{
+  background-color:#FF6767;
+  align-items: center;
+  display: inline;
+}
+.clock-boundaries
+{
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+}
+.hour-hand
+{
+  width:15rem;
+  height: 0.5rem;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition: all 0.05s;
+    transition-timing-function: ease-in-out;
+
+
+}
+.min-hand
+{
+
+    width:15rem;
+    height: 0.5rem;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+
+    transition: all 0.05s;
+      transition-timing-function: ease-in-out;
+
+
+
+
+}
+.sec-hand
+{
+  width:15rem;
+  height: 0.5rem;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+transition: all 0.05s;
+  transition-timing-function: ease-in-out;
